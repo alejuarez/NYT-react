@@ -1,0 +1,61 @@
+.linebr {
+  margin-top: 4%;
+}
+.container-fluid {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-bottom: 30px;
+  margin-right: auto;
+  margin-left: auto;
+  background: #1a4f6e;
+}
+h4,
+h3 {
+  color: cornsilk;
+}
+
+.list-overflow-container {
+  margin-top: 2%;
+  max-height: 200px;
+  text-align: left;
+  width: 100%;
+  border: 1px #dddddd solid;
+  border-radius: 4px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  font-size: 0.95rem;
+}
+
+.list-overflow-container li {
+  border-radius: 0px;
+  border-left: none;
+  border-right: none;
+}
+
+.list-overflow-container li * {
+  cursor: pointer;
+}
+
+.list-overflow-container li a {
+  color: #2a878c;
+}
+
+.list-overflow-container li:first-child {
+  border-top: none;
+}
+
+.list-overflow-container li:last-child {
+  border-bottom: none;
+}
+button {
+  color: green;
+  font-size: 0.95rem;
+  border-radius: 5px;
+  float: right;
+}
+p {
+  font-size: 0.95rem;
+  margin-bottom: 0;
+  padding-left: 5px;
+}
